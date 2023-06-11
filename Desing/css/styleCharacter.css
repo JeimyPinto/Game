@@ -44,7 +44,8 @@
   left: 10%;
   display: grid;
   background: var(--color4);
-  grid-template-columns: repeat(5,20%);
+  grid-template-columns: repeat(5, 20%);
+  border-style: none;
 }
 
 #gallery img {
@@ -52,7 +53,43 @@
   width: auto;
   height: 15vh;
 }
-#gallery img:hover{
+
+#gallery img:hover {
   cursor: pointer;
   border-style: dotted;
+}
+
+#players {
+  display: none;
+}
+
+.player_selected{
+  border-style: dotted;
+}
+
+#btn_start,
+#btn_exit {
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  background: var(--color4);
+  color: var(--color1);
+  font-size: 200%;
+  font-family: "Delicious Handrawn", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "VT323", monospace;
+  border-style: solid;
+  border-color: var(--color2);
+}
+
+#btn_exit {
+  left: 55%;
+}
+
+#btn_start:hover {
+  background: var(--color1);
+  color: var(--color4);
 }

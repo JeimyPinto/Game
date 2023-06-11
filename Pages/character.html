@@ -8,29 +8,32 @@
     @import url("../Desing/css/styleCharacter.css");
     @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Nunito:ital,wght@1,300&family=Roboto:ital@1&family=VT323&display=swap");
   </style>
+  <script src="../Logic/character.js"></script>
+  <script type="text/javascript" src="Logic/code.js"></script>
+
   <title>Elige tu personaje</title>
 </head>
 
 <body>
   <div class="container">
     <h1 id="title">Elige tu Personaje</h1>
-    <div class="characters">
-      <section id="gallery">
-        <img src="../Desing/multimedia/player1.png" id="player1" class="player" alt="finn el humano">
-        <img src="../Desing/multimedia/player2.png" id="player2" class="player" alt="Jake el perro">
-        <img src="../Desing/multimedia/player3.png" id="player3" class="player" alt="La dulce princesa">
-        <img src="../Desing/multimedia/player4.png" id="player4" class="player" alt="Señor mentita">
-        <img src="../Desing/multimedia/player5.png" id="player5" class="player" alt="Princesa grumosa">
-        <img src="../Desing/multimedia/player6.png" id="player6" class="player" alt="Marceline">
-        <img src="../Desing/multimedia/player7.png" id="player7" class="player" alt="BMO">
-        <img src="../Desing/multimedia/player8.png" id="player8" class="player" alt="Gunter">
-        <img src="../Desing/multimedia/player9.png" id="player9" class="player" alt="">
-        <img src="../Desing/multimedia/player10.png" id="playe10r" class="player" alt="">
-        <img src="../Desing/multimedia/player11.png" id="player11" class="player" alt="">
-      </section>
-    </div>
+    <input type="checkbox" class="characters" id="players">
+    <label id="gallery" for="players">
+      <img src="../Desing/multimedia/player1.png" id="player1" class="player" alt="finn el humano">
+      <img src="../Desing/multimedia/player2.png" id="player2" class="player" alt="Jake el perro">
+      <img src="../Desing/multimedia/player3.png" id="player3" class="player" alt="La dulce princesa">
+      <img src="../Desing/multimedia/player4.png" id="player4" class="player" alt="Señor mentita">
+      <img src="../Desing/multimedia/player5.png" id="player5" class="player" alt="Princesa grumosa">
+      <img src="../Desing/multimedia/player6.png" id="player6" class="player" alt="Marceline">
+      <img src="../Desing/multimedia/player7.png" id="player7" class="player" alt="BMO">
+      <img src="../Desing/multimedia/player8.png" id="player8" class="player" alt="Gunter">
+      <img src="../Desing/multimedia/player9.png" id="player9" class="player" alt="">
+      <img src="../Desing/multimedia/player10.png" id="playe10r" class="player" alt="">
+      <img src="../Desing/multimedia/player11.png" id="player11" class="player" alt="">
+    </label>
+    <button id="btn_start" type="button" class="button">Play</button>
+    <button id="btn_exit" type="button" class="button">Volver</button>
+  </div>
 </body>
-</div>
-<a href="../index.html">Volver</a>
 
 </html>
