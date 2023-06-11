@@ -37,24 +37,24 @@
   text-align: center;
 }
 
-#gallery {
+.gallery {
   width: 80%;
   position: absolute;
   top: 25%;
   left: 10%;
   display: grid;
-  background: var(--color4);
+  background-color: var(--color4);
   grid-template-columns: repeat(5, 20%);
   border-style: none;
 }
 
-#gallery img {
+.gallery img {
   margin-top: 5%;
   width: auto;
   height: 15vh;
 }
 
-#gallery img:hover {
+.-colorgallery img:hover {
   cursor: pointer;
   border-style: dotted;
 }
@@ -74,7 +74,7 @@
   position: absolute;
   top: 80%;
   left: 25%;
-  background: var(--color4);
+  background-color: var(--color4);
   color: var(--color1);
   font-size: 200%;
   font-family: "Delicious Handrawn", cursive;
@@ -90,6 +90,6 @@
 }
 
 #btn_start:hover {
-  background: var(--color1);
+  background-color: var(--color1);
   color: var(--color4);
 }

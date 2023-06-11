@@ -1,4 +1,4 @@
-* {
+-color* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -27,7 +27,7 @@
   height: 20vh;
   position: absolute;
   top: 5%;
-  background: var(--color4);
+  background-color: var(--color4);
   color: var(--color1);
   font-family: "Delicious Handrawn", cursive;
   font-family: "Nunito", sans-serif;
