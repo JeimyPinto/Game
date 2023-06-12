@@ -1,3 +1,6 @@
-$(document).on("click", ".characters", function () {
-    $(this).click(function () { $(this).toggleClass('.player_selected'); });
-});
+$(document).ready(function(){
+    $('.player').click(function(){
+        $('.player').addClass('player_selected')
+        $('.player').removeClass('player')
+    })
+})
