@@ -57,7 +57,7 @@
   transform: scale(1.2);
   background-color: var(--color4);
 }
-.player_selected{
+.player_selected {
   width: 60%;
   height: auto;
   cursor: pointer;
@@ -65,7 +65,7 @@
   border-style: dashed;
   border-color: var(--color1);
 }
-#btn_start,
+#btn_play,
 #btn_exit {
   width: 20%;
   height: 10%;
@@ -87,7 +87,8 @@
   left: 55%;
 }
 
-#btn_start:hover {
+#btn_play:hover,
+#btn_exit:hover {
   background-color: var(--color1);
   color: var(--color4);
 }
