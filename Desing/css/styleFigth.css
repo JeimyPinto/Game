@@ -120,6 +120,22 @@ a[href="../Pages/character.html"] {
   transform: translateX(-50%);
 }
 
+#ataques-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 200%; /* Añade esta línea para ocupar todo el ancho disponible */
+}
+
+.ataque-img {
+  width: 150px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  margin: 5px 0; /* Ajusta el margen según tus necesidades */
+}
+
+
 
 /* Media queries para estilos responsivos */
 @media screen and (max-width: 768px) {
