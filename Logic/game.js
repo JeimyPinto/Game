@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  const name = urlParams.get("name");
+  const nickNameLabel = document.querySelector("#nickName");
+
+  // Asignar el valor del nombre al elemento con id "nickName"
+  nickNameLabel.textContent = name;
+});
+
+
 const images = document.querySelectorAll(".player");
 
 for (image of images) {
@@ -23,7 +33,7 @@ btn_play.addEventListener("click", function (evt) {
   if (selectedPlayer) {
     const playerIndex = Array.from(images).indexOf(selectedPlayer);
     const playerAlt = selectedPlayer.getAttribute("alt");
-    window.location.replace(`../Pages/figth.html?player=${playerIndex}`);
+    window.location.replace(`../Pages/figth.html?player=${playerIndex+1}`);
   } else {
     alert("Selecciona un jugador antes de presionar Play.");
   }
@@ -33,3 +43,5 @@ const btn_exit = document.querySelector("#btn_exit");
 btn_exit.addEventListener("click", function (evt) {
   window.location.replace("../index.html");
 });
+
+

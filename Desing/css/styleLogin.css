@@ -1,3 +1,5 @@
+/* Estilos generales */
+
 * {
   margin: 0%;
   padding: 0%;
@@ -11,10 +13,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: FLEX;
+  display: flex;
   justify-content: center;
   align-items: center;
-  /*Defino la paleta de colores*/
+  /* Defino la paleta de colores */
   --color1: #ffe4f2;
   --color2: #e54ed0;
   --color3: #9f45b0;
@@ -101,5 +103,41 @@ input::placeholder {
 
   100% {
     background-color: var(--color1);
+  }
+}
+
+/* Media Query para pantallas pequeñas */
+
+@media (max-width: 768px) {
+  #btn_start {
+    width: 50%;
+    font-size: 150%;
+  }
+
+  #input_name {
+    width: 70%;
+  }
+
+  /* Ajustar el tamaño de fuente del placeholder */
+  #input_name::placeholder {
+    font-size: 150%;
+  }
+}
+
+/* Media Query para pantallas medianas */
+
+@media (max-width: 1024px) {
+  #btn_start {
+    width: 40%;
+    font-size: 180%;
+  }
+
+  #input_name {
+    width: 50%;
+  }
+
+  /* Ajustar el tamaño de fuente del placeholder */
+  #input_name::placeholder {
+    font-size: 180%;
   }
 }
