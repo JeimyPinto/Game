@@ -30,7 +30,7 @@
   left: 5%;
   right: 5%;
   background-color: var(--color4);
-
+  color: var(--color1);
 }
 
 .player-container {
@@ -126,13 +126,33 @@ a[href="../Pages/character.html"] {
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  width: 200%; /* Añade esta línea para ocupar todo el ancho disponible */
+  width: 200%;
+  /* Añade esta línea para ocupar todo el ancho disponible */
 }
 
 .ataque-img {
-  width: 150px; /* Ajusta el tamaño según tus necesidades */
+  width: 150px;
+  /* Ajusta el tamaño según tus necesidades */
   height: auto;
-  margin: 5px 0; /* Ajusta el margen según tus necesidades */
+  margin: 5px 0;
+  /* Ajusta el margen según tus necesidades */
+}
+#defensas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 200%;
+  /* Añade esta línea para ocupar todo el ancho disponible */
+}
+
+.defensa-img {
+  width: 150px;
+  /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  margin: 5px 0;
+  /* Ajusta el margen según tus necesidades */
 }
 
 
