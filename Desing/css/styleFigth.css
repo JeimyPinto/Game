@@ -23,8 +23,10 @@
 }
 
 #console {
+  font-size: 200%;
   width: 90%;
-  margin: 20px auto 10px;
+  height: 30%;
+  margin: 20px auto 5px;
   position: absolute;
   top: 0;
   left: 5%;
